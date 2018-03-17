@@ -1,0 +1,437 @@
+<carte>
+<carta>
+	<id>1</id>
+	<classe>animale</classe>
+	<nome>Leone</nome>
+	<tipo>carnivoro</tipo>
+	<attacco>100</attacco>
+	<resistenza>80</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>2</id>
+	<classe>magia</classe>
+	<nome>Scambio</nome>
+	<effetto>E_scambia</effetto>
+	<descrizione>I giocatori si scambiano le carte in mano.</descrizione>
+</carta>
+<carta>
+	<id>3</id>
+	<classe>animalece</classe>
+	<nome>Pinguino</nome>
+	<tipo>uccello</tipo>
+	<attacco>50</attacco>
+	<resistenza>60</resistenza>
+	<nemici>
+		<n>pesce</n>
+		<n>onnivoro</n>
+	</nemici>
+	<effetto>E_mangiaPesci</effetto>
+	<descrizione>Tutte le carte di tipo pesce in campo diventano tuoi punti.</descrizione>
+</carta>
+<carta>
+	<id>4</id>
+	<classe>arma</classe>
+	<nome>Katana</nome>
+	<attacco>70</attacco>
+</carta>
+<carta>
+	<id>5</id>
+	<classe>animale</classe>
+	<nome>Erba</nome>
+	<tipo>pianta</tipo>
+	<attacco>1</attacco>
+	<resistenza>5</resistenza>
+	<nemici>
+		<n>insetto</n>
+		<n>erbivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>6</id>
+	<classe>animale</classe>
+	<nome>Drosera</nome>
+	<tipo>pianta</tipo>
+	<attacco>10</attacco>
+	<resistenza>20</resistenza>
+	<nemici>
+		<n>erbivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>7</id>
+	<classe>animale</classe>
+	<nome>Ortica</nome>
+	<tipo>pianta</tipo>
+	<attacco>1</attacco>
+	<resistenza>20</resistenza>
+	<nemici>
+		<n>erbivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>8</id>
+	<classe>animale</classe>
+	<nome>Moschino</nome>
+	<tipo>insetto</tipo>
+	<attacco>2</attacco>
+	<resistenza>4</resistenza>
+	<nemici>
+		<n>pianta</n>
+		<n>insettivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>9</id>
+	<classe>animale</classe>
+	<nome>Lombrico</nome>
+	<tipo>insetto</tipo>
+	<attacco>2</attacco>
+	<resistenza>18</resistenza>
+	<nemici>
+		<n>insettivoro</n>
+		<n>pesce</n>
+	</nemici>
+</carta>
+<carta>
+	<id>10</id>
+	<classe>animale</classe>
+	<nome>Coniglio</nome>
+	<tipo>erbivoro</tipo>
+	<attacco>20</attacco>
+	<resistenza>30</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+		<n>rettile</n>
+		<n>uccello</n>
+	</nemici>
+</carta>
+<carta>
+	<id>11</id>
+	<classe>animale</classe>
+	<nome>Rana</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>16</attacco>
+	<resistenza>25</resistenza>
+	<nemici>
+		<n>uccello</n>
+		<n>rettile</n>
+	</nemici>
+</carta>
+<carta>
+	<id>12</id>
+	<classe>animale</classe>
+	<nome>Aquila</nome>
+	<tipo>uccello</tipo>
+	<attacco>65</attacco>
+	<resistenza>60</resistenza>
+	<nemici>
+		<n>uccello</n>
+	</nemici>
+</carta>
+<carta>
+	<id>13</id>
+	<classe>animale</classe>
+	<nome>Squalo</nome>
+	<tipo>pesce</tipo>
+	<attacco>85</attacco>
+	<resistenza>95</resistenza>
+	<nemici>
+		<n>pesce</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>14</id>
+	<classe>animale</classe>
+	<nome>Uomo</nome>
+	<tipo>onnivoro</tipo>
+	<attacco>100</attacco>
+	<resistenza>80</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>rettile</n>
+		<n>pesce</n>
+	</nemici>
+</carta>
+<carta>
+	<id>15</id>
+	<classe>magia</classe>
+	<nome>Clonazione</nome>
+	<effetto>E_copia</effetto>
+	<descrizione>Ti fa venire in mano la copia di una carta a caso fra quelle in campo.</descrizione>
+</carta>
+<carta>
+	<id>16</id>
+	<classe>magia</classe>
+	<nome>Spia</nome>
+	<effetto>E_spia</effetto>
+	<descrizione>Ti fa sapere le carte che ha in mano l'avversario.</descrizione>
+</carta>
+<carta>
+	<id>17</id>
+	<classe>animalece</classe>
+	<nome>Succiascoglio</nome>
+	<tipo>pesce</tipo>
+	<attacco>5</attacco>
+	<resistenza>20</resistenza>
+	<nemici>
+		<n>pesce</n>
+		<n>uccello</n>
+	</nemici>
+	<effetto>E_togli_avv</effetto>
+	<descrizione>Elimina tutte le carte dell'avversario in campo.</descrizione>
+</carta>
+<carta>
+	<id>18</id>
+	<classe>animale</classe>
+	<nome>Cavalletta</nome>
+	<tipo>insetto</tipo>
+	<attacco>10</attacco>
+	<resistenza>15</resistenza>
+	<nemici>
+		<n>insettivoro</n>
+		<n>uccello</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>19</id>
+	<classe>animale</classe>
+	<nome>Lumaca</nome>
+	<tipo>insetto</tipo>
+	<attacco>10</attacco>
+	<resistenza>20</resistenza>
+	<nemici>
+		<n>uccello</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>20</id>
+	<classe>animale</classe>
+	<nome>Capra</nome>
+	<tipo>erbivoro</tipo>
+	<attacco>30</attacco>
+	<resistenza>60</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+		<n>rettile</n>
+	</nemici>
+</carta>
+<carta>
+	<id>21</id>
+	<classe>animale</classe>
+	<nome>Mucca</nome>
+	<tipo>erbivoro</tipo>
+	<attacco>25</attacco>
+	<resistenza>80</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>22</id>
+	<classe>animale</classe>
+	<nome>Capibara</nome>
+	<tipo>erbivoro</tipo>
+	<attacco>25</attacco>
+	<resistenza>55</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>rettile</n>
+	</nemici>
+</carta>
+<carta>
+	<id>23</id>
+	<classe>animale</classe>
+	<nome>Talpa</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>15</attacco>
+	<resistenza>25</resistenza>
+	<nemici>
+		<n>uccello</n>
+		<n>rettile</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>24</id>
+	<classe>animale</classe>
+	<nome>Gallina</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>20</attacco>
+	<resistenza>40</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+		<n>rettile</n>
+	</nemici>
+</carta>
+<carta>
+	<id>25</id>
+	<classe>animale</classe>
+	<nome>Coccodrillo</nome>
+	<tipo>rettile</tipo>
+	<attacco>80</attacco>
+	<resistenza>100</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>26</id>
+	<classe>animale</classe>
+	<nome>Struzzo</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>30</attacco>
+	<resistenza>60</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>27</id>
+	<classe>animale</classe>
+	<nome>Lucertola</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>20</attacco>
+	<resistenza>20</resistenza>
+	<nemici>
+		<n>insettivoro</n>
+		<n>uccello</n>
+	</nemici>
+</carta>
+<carta>
+	<id>28</id>
+	<classe>animale</classe>
+	<nome>Gufo</nome>
+	<tipo>uccello</tipo>
+	<attacco>30</attacco>
+	<resistenza>50</resistenza>
+	<nemici>
+		<n>uccello</n>
+	</nemici>
+</carta>
+<carta>
+	<id>29</id>
+	<classe>animale</classe>
+	<nome>Anatra</nome>
+	<tipo>uccello</tipo>
+	<attacco>20</attacco>
+	<resistenza>45</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+		<n>rettile</n>
+	</nemici>
+</carta>
+<carta>
+	<id>30</id>
+	<classe>animale</classe>
+	<nome>Krill</nome>
+	<tipo>pesce</tipo>
+	<attacco>3</attacco>
+	<resistenza>5</resistenza>
+	<nemici>
+		<n>pesce</n>
+	</nemici>
+</carta>
+<carta>
+	<id>31</id>
+	<classe>animale</classe>
+	<nome>Salmone</nome>
+	<tipo>pesce</tipo>
+	<attacco>20</attacco>
+	<resistenza>50</resistenza>
+	<nemici>
+		<n>pesce</n>
+		<n>uccello</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>32</id>
+	<classe>animale</classe>
+	<nome>Boa</nome>
+	<tipo>rettile</tipo>
+	<attacco>40</attacco>
+	<resistenza>60</resistenza>
+	<nemici>
+		<n>uccello</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>33</id>
+	<classe>animale</classe>
+	<nome>Gatto</nome>
+	<tipo>onnivoro</tipo>
+	<attacco>25</attacco>
+	<resistenza>40</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>34</id>
+	<classe>animale</classe>
+	<nome>Orso</nome>
+	<tipo>onnivoro</tipo>
+	<attacco>75</attacco>
+	<resistenza>100</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>35</id>
+	<classe>animale</classe>
+	<nome>Lince</nome>
+	<tipo>carnivoro</tipo>
+	<attacco>50</attacco>
+	<resistenza>50</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>36</id>
+	<classe>animale</classe>
+	<nome>Leopardo</nome>
+	<tipo>carnivoro</tipo>
+	<attacco>80</attacco>
+	<resistenza>85</resistenza>
+	<nemici>
+		<n>carnivoro</n>
+		<n>onnivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>37</id>
+	<classe>animale</classe>
+	<nome>Migale</nome>
+	<tipo>insettivoro</tipo>
+	<attacco>20</attacco>
+	<resistenza>25</resistenza>
+	<nemici>
+		<n>uccello</n>
+		<n>insettivoro</n>
+	</nemici>
+</carta>
+<carta>
+	<id>38</id>
+	<classe>arma</classe>
+	<nome>Arco</nome>
+	<attacco>60</attacco>
+</carta>
+</carte>
